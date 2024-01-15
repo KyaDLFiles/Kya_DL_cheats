@@ -7,7 +7,7 @@ description=Enable the dormiant flying cheat, activated by pressing R2+R3
 patch=1,EE,604495A0,extended,00000001
 patch=1,EE,00000000,extended,00000AA0
 
-[Dormant debug features/cheats\R2+Right/Invincibility]
+[Dormant debug features/cheats\Invincibility]
 author=The Kya: Dark Lineage Files
 description=Always enable invincibility 
 patch=1,EE,604495A0,extended,00000001
