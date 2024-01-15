@@ -13,7 +13,7 @@ Providing support for commercial cheat devices (es: ARMAX, GameShark, etc.) is e
 Most of those devices use their own "encrypted" format for cheat codes, which would require manual conversion for each type that exists (some of them even change their cheat code format from one revision to another!)  
 Additionally, I've previously encountered issues with some of these devices not properly supporting all code types, which leads to broken cheats or even crashing the game  
 Meanwhile, CDfPS2 uses a plain and easy to write code format and actually supports them properly   
-For there reasons, I won't be supporting any of the commercial cheat devices, and instead recommend you (mod your PS2 to run CDfPS2)[#ps2-modding-resources] (which cheat devices can help in doing)
+For there reasons, I won't be supporting any of the commercial cheat devices, and instead recommend you [mod your PS2 to run CDfPS2](#ps2-modding-resources) (which cheat devices can help in doing)
 
 # Cheats list
 ## Dormant debug features/cheats
