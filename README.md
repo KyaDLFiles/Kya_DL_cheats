@@ -1,4 +1,5 @@
 # Kya DL cheats
+[List of cheats with explaination below](#cheats-list)  
 Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [CheatDeviceForPS2](https://github.com/israpps/CheatDevicePS2) (to be added)
 
 _pnach_ files are for PCSX2,  the ones with the longer filenames are for the 1.7 nightly builds, while the other ones are for legacy builds
@@ -13,3 +14,9 @@ Most of those devices use their own "encrypted" format for cheat codes, which wo
 Additionally, I've previously encountered issues with some of these devices not properly supporting all code types, which leads to broken cheats or even crashing the game  
 Meanwhile, CDfPS2 uses a plain and easy to write code format and actually supports them properly   
 For there reasons, I won't be supporting any of the commercial cheat devices, and instead recommend you mod your PS2 to run CDfPS2 (for example with [FMCB](https://www.ps2-home.com/forum/viewtopic.php?p=6434#p6434), which cheat devices can actually aid in installing)
+
+# Cheats list
+## Dormant debug features/cheats
+**Enable flying cheat** - Enable the dormant flying cheat, activated by pressing R2+R3  
+**Invincibility** - Enable the dormant invincibility cheat, always enabled  
+**R2+Right/Left toggle invincibility** - R2+Right to enable invinicibility, R2+Left to disable it  
