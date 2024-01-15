@@ -22,7 +22,7 @@ For there reasons, I won't be supporting any of the commercial cheat devices, an
 **R2+Right/Left toggle invincibility** - R2+Right to enable invinicibility, R2+Left to disable it  
 
 # PS2 Modding resources
-While the page below mostly refers to FMCB, it contains an extensive list of ways to launch homebrews on the PS2, which you can use run CDfPS2, or to install alternative exploits (especially if your console doesn't support FMCB)  
+While the page below mostly refers to FMCB, it contains an extensive list of ways to launch homebrews on the PS2, which you can use to run CDfPS2, or to install alternative exploits (especially if your console doesn't support FMCB)  
 https://www.ps2-home.com/forum/viewtopic.php?p=6434#p6434  
 Info about alternatives to FMCB  
 https://consolemods.org/wiki/PS2:PS2_Mods_Wiki  
