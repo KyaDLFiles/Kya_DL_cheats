@@ -1,0 +1,26 @@
+//Kya Dark Lineage NTSC
+//https://github.com/KyaDLFiles/Kya_DL_cheats
+
+[Cheats\Enable flying cheat]
+author=The Kya: Dark Lineage Files
+description=Enable the dormiant flying cheat, activated by pressing R2+R3
+patch=1,EE,60448AA0,extended,00000001
+patch=1,EE,00000000,extended,00000AA0
+
+[Cheats\R2+Right/Invincibility]
+author=The Kya: Dark Lineage Files
+description=Always enable invincibility 
+patch=1,EE,60448AA0,extended,00000001
+patch=1,EE,00000000,extended,00000AA4
+
+[Cheats\R2+Right/Left toggle invincibility]
+author=The Kya: Dark Lineage Files
+description=R2+Right to enable invincibility, R2+Left to disable 
+//Compare line NANDs the joker code to NOT(R2+L/R joker code)
+patch=1,EE,E0020220,extended,40495B30
+patch=1,EE,60448AA0,extended,00000001
+patch=1,EE,00000000,extended,00000AA4
+patch=1,EE,E0020280,extended,40495B30
+patch=1,EE,60448AA0,extended,00000000
+patch=1,EE,00000000,extended,00000AA4
+
