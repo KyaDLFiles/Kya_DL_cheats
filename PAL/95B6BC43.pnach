@@ -1,0 +1,20 @@
+//Kya Dark Lineage PAL
+//https://github.com/KyaDLFiles/Kya_DL_cheats
+
+//Enable the dormiant flying cheat, activated by pressing R2+R3
+patch=1,EE,604495A0,extended,00000001
+patch=1,EE,00000000,extended,00000AA0
+
+//Always enable invincibility 
+patch=1,EE,604495A0,extended,00000001
+patch=1,EE,00000000,extended,00000AA4
+
+//R2+Right to enable invincibility, R2+Left to disable 
+//Compare line NANDs the joker code to NOT(R2+L/R joker code)
+patch=1,EE,E0020220,extended,40496B30
+patch=1,EE,604495A0,extended,00000001
+patch=1,EE,00000000,extended,00000AA4
+patch=1,EE,E0020280,extended,40496B30
+patch=1,EE,604495A0,extended,00000000
+patch=1,EE,00000000,extended,00000AA4
+
