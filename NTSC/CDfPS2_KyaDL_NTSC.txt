@@ -1,0 +1,22 @@
+"Kya: Dark Lineage (NTSC)"
+//By The Kya: Dark Lineage Files
+//https://github.com/KyaDLFiles/Kya_DL_cheats
+Enable
+9022AD78 0C08AB06
+
+Dormant debug features
+Enable flying cheat
+60448AA0 00000001
+00000000 00000AA0
+
+Invincibility (always)
+60448AA0 00000001
+00000000 00000AA4
+
+{R2}+Left/Right toggle invincibility
+E0020220 40495B30
+60448AA0 00000001
+00000000 00000AA4
+E0020280 40495B30
+60448AA0 00000000
+00000000 00000AA4
