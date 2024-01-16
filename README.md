@@ -1,6 +1,6 @@
 # Kya DL cheats
 [List of cheats with explaination below](#cheats-list)  
-Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [CheatDeviceForPS2](https://github.com/israpps/CheatDevicePS2) (uploaded but haven't tested them yet)
+Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [Cheat Device for PS2](https://github.com/israpps/CheatDevicePS2) (uploaded but haven't tested them yet)
 
 _pnach_ files are for PCSX2,  the ones with the longer filenames are for the 1.7 nightly builds, while the other ones are for legacy builds
 
