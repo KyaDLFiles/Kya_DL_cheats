@@ -38,3 +38,4 @@ https://quade.co/ps2-modchip-guide/modbo/
 https://github.com/mlafeldt/ps2rd/blob/master/Documentation/code_types.txt  
 https://forums.pcsx2.net/Thread-How-PNACH-files-work-2-0   
 https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0  
+https://www.psx-place.com/resources/freemastercodefinder.1351/
