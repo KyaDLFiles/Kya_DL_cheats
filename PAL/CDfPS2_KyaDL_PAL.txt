@@ -1,0 +1,22 @@
+"Kya: Dark Lineage (PAL)"
+//By The Kya: Dark Lineage Files
+//https://github.com/KyaDLFiles/Kya_DL_cheats
+Enable
+9022AF78 0C08AB86
+
+Dormant debug features
+Enable flying cheat
+604495A0 00000001
+00000000 00000AA0
+
+Invincibility (always)
+604495A0 00000001
+00000000 00000AA4
+
+{R2}+Left/Right toggle invincibility
+E0020220 40496B30
+604495A0 00000001
+00000000 00000AA4
+E0020280 40496B30
+604495A0 00000000
+00000000 00000AA4
