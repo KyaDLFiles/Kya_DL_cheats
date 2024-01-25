@@ -1,9 +1,11 @@
 # Kya DL cheats
 [List of cheats with explaination below](#cheats-list)  
-Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [Cheat Device for PS2](https://github.com/israpps/CheatDevicePS2) (uploaded but haven't tested them yet)
+Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [Cheat Device for PS2](https://github.com/israpps/CheatDevicePS2) (the latter also work for [OpenPS2Loader](https://www.psx-place.com/forums/open-ps2-loader-opl.77/  ), or other projects that use [ps2rd](https://github.com/mlafeldt/ps2rd) or ps2rd-based cheat engines) (uploaded but haven't tested them yet)  
+For more detailed descriptions of the cheats and what they do, refer to the [cheats list](#cheats-list)  
+To know more about how cheat codes work and how the ones in this repo interact with the game, check out the [technical resources](#technical-resources)
 
 _pnach_ files are for PCSX2,  the ones with the longer filenames are for the 1.7 nightly builds, while the other ones are for legacy builds  
-_txt_ files are for CDfPS2  
+_txt_ files are for CDfPS2/OPL/ps2rd
 
 ## Note about PCSX2
 It is recommended, even by the developers of the emulator themselves, to use the latest 1.7 nightly builds  
@@ -25,9 +27,7 @@ For there reasons, I won't be supporting any of the commercial cheat devices, an
 # PS2 Modding resources
 FMCB is the most popular and easy-to-use softmod for the PlayStation 2, but it's not compatible with some of the very last models, and a softmod by itself _doesn't_ allow to play burned games (tho there are ways and workarounds for that, see below)  
 While the page below mostly refers to FMCB, it contains an extensive list of ways to launch homebrews on the PS2, which you can also use to simply run CDfPS2, or to install alternative exploits (especially if your console doesn't support FMCB)  
-(As the original website apparently died, and it can be annoying to navigate using archive.org, I'd use the link below as an index for available methods, and then look up another guide for a particular method)  
-~~https://www.ps2-home.com/forum/viewtopic.php?p=6434#p6434~~  
-https://web.archive.org/web/20201112040400/https://www.ps2-home.com/forum/viewtopic.php?p=6434#p6434  
+https://www.ps2-home.com/forum/viewtopic.php?p=6434#p6434
 Info about alternatives to FMCB  
 https://consolemods.org/wiki/PS2:PS2_Mods_Wiki  
 https://www.psx-place.com/threads/how-to-hack-playstation-2-in-2022-roadmap.37271/  
@@ -39,7 +39,7 @@ https://www.psx-place.com/threads/esr.30217/
 https://www.psx-place.com/forums/open-ps2-loader-opl.77/  
 Or you can always modchip your console if you dare  
 https://quade.co/ps2-modchip-guide/modbo/
-# More resources
+# Technical resources
 https://kyadlfiles.github.io/technical/  
 https://github.com/mlafeldt/ps2rd/blob/master/Documentation/code_types.txt  
 https://forums.pcsx2.net/Thread-How-PNACH-files-work-2-0   
