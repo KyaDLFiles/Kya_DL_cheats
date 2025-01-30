@@ -1,0 +1,120 @@
+gametitle=Kya: Dark Lineage May 12 prototype
+
+
+[Enable extended menu]
+author=KyaDLFiles
+author=KyaDLFiles
+description=Enable the extended pause menu, including the cheats menu
+patch=1,EE,006F15B1,extended,00000001
+
+[Settings\OpenAllTeleporters\Off]
+author=KyaDLFiles
+author=KyaDLFiles
+00659FE2 00000030
+[Settings\OpenAllTeleporters\On]
+author=KyaDLFiles
+patch=1,EE,00659FE2,extended,00000031
+
+[Settings\EnableScenicVarsCheats\Off]
+author=KyaDLFiles
+0065A000 00000030
+[Settings\EnableScenicVarsCheats\On]
+author=KyaDLFiles
+patch=1,EE,0065A000,extended,00000031
+
+[Settings\Change AddLevel to LEVEL_1]
+author=KyaDLFiles
+patch=1,EE,0065A664,extended,00000022
+patch=1,EE,0065A665,extended,00000020
+
+
+[Movement\Circle - Don't freefall]
+author=KyaDLFiles
+description=Hold circle to not start freefalling
+patch=1,EE,E1020000,extended,103CC5FD
+patch=1,EE,60722FC0,extended,00000000
+patch=1,EE,00020000,extended,000000F0
+
+[Movement\Circle + cross - Moon jump]
+author=KyaDLFiles
+patch=1,EE,E0069FFF,extended,003CC642
+patch=1,EE,60722FC0,extended,00000000
+patch=1,EE,00020000,extended,000000F0
+patch=1,EE,60722FC0,extended,41400000
+patch=1,EE,00020000,extended,00000280
+patch=1,EE,60722FC0,extended,3F800000
+patch=1,EE,00020000,extended,00000264
+
+[Movement\Circle + triangle - Very slow fall]
+author=KyaDLFiles
+patch=1,EE,E006CFFF,extended,003CC642
+patch=1,EE,60722FC0,extended,00000000
+patch=1,EE,00020000,extended,000000F0
+patch=1,EE,60722FC0,extended,00000000
+patch=1,EE,00020000,extended,00000280
+patch=1,EE,60722FC0,extended,00000000
+patch=1,EE,00020000,extended,00000264
+
+[Shortcuts\L1 + right - Die]
+author=KyaDLFiles
+patch=1,EE,E002FBDF,extended,003CC642
+patch=1,EE,60722FC0,extended,00000097
+patch=1,EE,00020000,extended,00000108
+
+[Shortcuts\L1 + left - Regenerate]
+author=KyaDLFiles
+description=Set health to 100
+patch=1,EE,E002FB7F,extended,003CC642
+patch=1,EE,60722FC0,extended,42C80000
+patch=1,EE,00020000,extended,00000380
+
+[Shortcuts\Circle + left - give nooties]
+author=KyaDLFiles
+patch=1,EE,E002DF7F,extended,003CC642
+patch=1,EE,30400000,extended,003C98A0
+patch=1,EE,00000001,extended,00000000
+
+[Shortcuts\Circle + right - Set mana to 100]
+author=KyaDLFiles
+patch=1,EE,E002DFDF,extended,003CC642
+patch=1,EE,60722FC0,extended,42C80000
+patch=1,EE,00020000,extended,00000A74
+
+[Shortcuts\Circle + triangle + right - Set mana to 10]
+author=KyaDLFiles
+patch=1,EE,E002CFDF,extended,003CC642
+patch=1,EE,60722FC0,extended,41200000
+patch=1,EE,00020000,extended,00000A74
+
+[Unlocks\Unlock Stuff]
+author=KyaDLFiles
+patch=1,EE,2037372C,extended,00000001
+
+[Unlocks\Unlock all items]
+// In order: magic bouncers, climbing gloves, boomies, jamgut birdcall, binoculars, magic boards
+patch=1,EE,2037362C,extended,00000001
+patch=1,EE,2037363C,extended,00000001
+patch=1,EE,2037364C,extended,00000003
+patch=1,EE,2037369C,extended,00000001
+patch=1,EE,203736AC,extended,00000001
+patch=1,EE,2037371C,extended,00000001
+
+[Infinite stuff\Infinite nooties]
+author=KyaDLFiles
+description=Freeze nooties to 99999
+patch=1,EE,203C98A0,extended,0001869F
+
+[Infinite stuff\Infinite mana]
+author=KyaDLFiles
+description=Freeze mana to 999
+patch=1,EE,60722FC0,extended,4479C000
+patch=1,EE,00020000,extended,00000A74
+
+[Misc\Copy loaded sector number to nooties counter]
+author=KyaDLFiles
+patch=1,EE,506F21E4,extended,00000004
+patch=1,EE,003C98A0,extended,00000000
+
+[Misc\Set freed nativs to 117]
+author=KyaDLFiles
+patch=1,EE,203735FC,extended,00000075
