@@ -9,6 +9,7 @@ Enable
 Enable extended menu
 006F15B1 00000001
 
+Settings
 OpenAllTeleporters
 00659FE2 000000$Toggle
 
@@ -19,6 +20,7 @@ Change AddLevel to LEVEL_1
 0065A664 00000022
 0065A665 00000020
 
+Movement
 {CIRCLE} - Don't freefall
 E1020000 103CC5FD
 60722FC0 00000000
@@ -42,6 +44,7 @@ E006CFFF 003CC642
 60722FC0 00000000
 00020000 00000264
 
+Shortcuts
 {L1} + right - Die
 E002FBDF 003CC642
 60722FC0 00000097
@@ -67,13 +70,7 @@ E002CFDF 003CC642
 60722FC0 41200000
 00020000 00000A74
 
-Copy loaded sector number to nooties counter
-506F21E4 00000004
-003C98A0 00000000
-
-Set freed nativs to 117
-203735FC 00000075
-
+Unlocks
 Unlock Stuff
 2037372C 00000001
 
@@ -86,3 +83,18 @@ Unlock all items
 203736AC 00000001
 2037371C 00000001
 
+Infinite stuff
+Infinite nooties (freeze to 99999)
+203C98A0 0001869F
+
+Infinite mana (freeze to 999)
+60722FC0 4479C000
+00020000 00000A74
+
+Misc
+Copy loaded sector number to nooties counter
+506F21E4 00000004
+003C98A0 00000000
+
+Set freed nativs to 117
+203735FC 00000075
