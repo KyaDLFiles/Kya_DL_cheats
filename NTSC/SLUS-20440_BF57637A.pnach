@@ -9,13 +9,13 @@ patch=1,EE,00000000,extended,00000AA0
 
 [Dormant debug features/cheats\Invincibility]
 author=The Kya: Dark Lineage Files
-description=Always enable invincibility 
+description=Always enable invincibility
 patch=1,EE,60448AA0,extended,00000001
 patch=1,EE,00000000,extended,00000AA4
 
 [Dormant debug features/cheats\R2+Right/Left toggle invincibility]
 author=The Kya: Dark Lineage Files
-description=R2+Right to enable invincibility, R2+Left to disable 
+description=R2+Right to enable invincibility, R2+Left to disable
 //Compare line NANDs the joker code to NOT(R2+L/R joker code)
 patch=1,EE,E0020220,extended,40495B30
 patch=1,EE,60448AA0,extended,00000001
@@ -24,3 +24,16 @@ patch=1,EE,E0020280,extended,40495B30
 patch=1,EE,60448AA0,extended,00000000
 patch=1,EE,00000000,extended,00000AA4
 
+[Misc\Circle+Triangle+Left teleport to the maze in LEVEL_13]
+author=The Kya: Dark Lineage Files
+description=Load the maze, teleport to the center of it and increase the mana limit in LEVEL_13
+patch=1,EE,E009000D,extended,006E00E4 //Check if level is LEVEL_13
+patch=1,EE,E008CF7F,extended,00495B9C //Check buttons
+patch=1,EE,606F2D90,extended,41F80000 //X
+patch=1,EE,00020000,extended,00000030
+patch=1,EE,606F2D90,extended,C1900000 //Y
+patch=1,EE,00020000,extended,00000034
+patch=1,EE,606F2D90,extended,42900000 //Z
+patch=1,EE,00020000,extended,00000038
+patch=1,EE,2042495C,extended,00000002 //Mana limit
+patch=1,EE,206E19A0,extended,00000004 //Sector

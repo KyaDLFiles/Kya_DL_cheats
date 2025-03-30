@@ -4,12 +4,8 @@ Cheats for Kya: Dark Lineage, for [PCSX2](https://pcsx2.net/) and [Cheat Device 
 For more detailed descriptions of the cheats and what they do, refer to the [cheats list](#cheats-list)  
 To know more about how cheat codes work and how the ones in this repo interact with the game, check out the [technical resources](#technical-resources)
 
-_pnach_ files are for PCSX2,  the ones with the longer filenames are for the 1.7 nightly builds, while the other ones are for legacy builds  
+_pnach_ files are for PCSX2 ≥2.0  
 _txt_ files are for CDfPS2/OPL/ps2rd
-
-## Note about PCSX2
-It is recommended, even by the developers of the emulator themselves, to use the latest 1.7 nightly builds  
-I'm also providing cheat files for older versions if you really have to use them, but since those versions don't have any sort of cheat management system, you'll have to edit the files and manually remove the cheats you don't want
 
 ## Note about other (commercial) cheat devices for physical consoles
 Providing support for commercial cheat devices (es: ARMAX, GameShark, etc.) is extremely annoying  
@@ -23,6 +19,9 @@ For there reasons, I won't be supporting any of the commercial cheat devices, an
 **Enable flying cheat** - Enable the dormant flying cheat, activated by pressing R2+R3  
 **Invincibility** - Enable the dormant invincibility cheat, always enabled  
 **R2+Right/Left toggle invincibility** - R2+Right to enable invinicibility, R2+Left to disable it  
+
+## Misc
+**Circle+Triangle+Left teleport to the maze in LEVEL_13** - Teleport to the maze and increase the mana limit in LEVEL_13
 
 # PS2 Modding resources
 FMCB is the most popular and easy-to-use softmod for the PlayStation 2, but it's not compatible with some of the very last models, and a softmod by itself _doesn't_ allow to play burned games (tho there are ways and workarounds for that, see below)  
