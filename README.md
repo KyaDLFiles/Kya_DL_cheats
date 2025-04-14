@@ -1,1 +1,1 @@
-Documentation moved [here](http://localhost:3000/cheats/)
+Documentation moved [here](http://kyadlfiles.github.io/cheats/)
